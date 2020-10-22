@@ -1,0 +1,22 @@
+.card {
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+    color: #0ccac4;
+    border-radius: 10px;
+    margin: 20px;
+    min-height: 15vh;
+    max-width: 50vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #0ccac4;
+    color: blueviolet;
+}
+
+.image {
+    border-radius: 10px;
+
+}

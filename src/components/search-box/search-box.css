@@ -1,0 +1,22 @@
+.search {
+    border: none;
+    min-height: 25px;
+    background-color: blueviolet;
+    height: 30px;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    color: mediumaquamarine;
+
+}
+.search::placeholder {
+    color: mediumaquamarine
+}
+
+.search:hover input {
+    background-color: mediumaquamarine
+}
+
+.search:focus::placeholder {
+    color: transparent;
+  }
